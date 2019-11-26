@@ -9,7 +9,7 @@
 
 .story-img {
   width: 130px;
-  height: 100 px;
+  height: 100px;
   float: left;
 }
 
@@ -29,8 +29,19 @@
   height: 200px;
 }
 
+.opnion-big-box {
+  background: yellow;
+  width: 370px;
+  height: 380px;
+}
+
+.opnion-small-box {
+  background: yellow;
+  width: 280px;
+  height: 200px;
+}
+
 .opnion-avatar {
   float: left;
-height: 64px;
-
+  height: 64px;
 }
