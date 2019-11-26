@@ -58,3 +58,18 @@
   float: left;
   height: 64px;
 }
+
+.news-div {
+  background-color: pink;
+  width: 500px;
+  height: 300px;
+}
+
+.news-div .left-img {
+float: left;
+}
+
+ .sign-img {
+  height: 100%;
+  float: left;
+}
