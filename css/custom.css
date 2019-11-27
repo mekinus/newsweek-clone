@@ -1,8 +1,6 @@
 :root {
-
   --gray: #DDD;
 }
-
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -28,6 +26,7 @@ body {
   border-bottom: 1px solid var(--gray);
   margin-bottom: 5px;
 }
+
 .main-logo {
   width: 25%;
 }
@@ -38,9 +37,11 @@ body {
 }
 
 .story-img {
+  padding-top: 0;
   width: 130px;
-  height: 100px;
+  height: 80px;
   float: left;
+  margin-right: 10px;
 }
 
 .top-box {
@@ -62,26 +63,52 @@ body {
 .box-article {
   width: 290px;
   height: 387px;
-
 }
 
 .opnion-big-box {
-  background: yellow;
-  width: 370px;
-  height: 380px;
+  width: 400px;
+  height: 450px;
+  border: 1px solid var(--gray);
+position: relative;
 }
 
 .opnion-small-box {
-  background: yellow;
   width: 280px;
-  height: 200px;
+  height: 150px;
+  background-color: #F4F5F6;
+  padding: 20px 0 0 20px;
 }
+
+.opnion-small-box img {
+  width: 29px;
+  height: 28px;
+  float: left;
+  margin-right: 10px;
+}
+
 
 .bottom-box {
   margin-top: 10px;
   width: 400px;
   height: 300px;
   background-color: blue;
+}
+
+.bottom-left {
+  position: absolute;
+  left: 3px;
+  top: 198px;
+
+}
+
+.tag {
+  color: #3581F4;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.big-pic {
+  width: 100%;
+  height: 50%;
 }
 
 .opnion-avatar {
@@ -97,10 +124,10 @@ body {
 }
 
 .news-div .left-img {
-float: left;
+  float: left;
 }
 
- .sign-img {
+.sign-img {
   height: 100%;
   float: left;
 }
@@ -108,7 +135,6 @@ float: left;
 .gray {
   color: #9A9A9A;
 }
-
 
 .opnion-box h5 span {
   margin-left: 0;
