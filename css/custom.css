@@ -1,6 +1,7 @@
 :root {
   --gray: #DDD;
   --orange: #FD2903;
+  --black: #000;
 }
 
 body {
@@ -9,10 +10,6 @@ body {
 
 .bold {
   font-weight: bold;
-}
-
-.gray {
-  color: var(--gray);
 }
 
 .medium-font {
@@ -59,11 +56,8 @@ body {
   width: 100%;
 }
 
-.top-box a {
-  color: black;
-}
 
-.top-box a:hover {
+.custom-decoration:hover {
   text-decoration-color: var(--orange);
 }
 
@@ -88,6 +82,12 @@ body {
 .box-article {
   width: 290px;
   height: 387px;
+
+}
+
+.box-thumb {
+  height: 70%;
+  width: 100%;
 }
 
 .opnion-big-box {
@@ -104,7 +104,7 @@ position: relative;
   padding: 20px 0 0 20px;
 }
 
-.opnion-small-box img {
+.small-logo {
   width: 29px;
   height: 28px;
   float: left;
@@ -129,6 +129,14 @@ position: relative;
 .tag {
   color: #3581F4;
   background-color: rgba(255, 255, 255, 0.8);
+}
+
+.tag-o {
+  color: var(--orange);
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  left: 15px;
+  top: 247px;
 }
 
 .big-pic {
@@ -158,11 +166,26 @@ position: relative;
 }
 
 .gray {
-  color: #9A9A9A;
+  color: var(--gray);
 }
 
+.black {
+  color: var(--black);
+}
+
+.orange {
+  color: var(--orange);
+}
+
+.bg-orange {
+  background-color: var(--orange);
+}
 .bg-gray {
   background-color: var(--gray);
+}
+
+.white {
+  color: white;
 }
 
 .opnion-box h5 span {
