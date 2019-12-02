@@ -1,11 +1,13 @@
 :root {
   --gray: #DDD;
+  --darkgray: #9A9A9A;
   --orange: #FD2903;
   --black: #000;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
 .bold {
@@ -30,6 +32,16 @@ body {
 
 .border-u-g {
   border-top: 1px solid var(--gray);
+}
+
+.border-r-g {
+  border-right: 1px solid var(--gray);
+  margin-right: 3px;
+
+}
+
+.border-gray {
+  border: 1px solid var(--gray);
 }
 
 .main-logo {
@@ -213,6 +225,10 @@ body {
   float: left;
 }
 
+.footer-links a {
+  text-decoration: none;
+}
+
 .footer-icons {
   margin-top: 60px;
   margin-left: 350px;
@@ -234,8 +250,18 @@ body {
   background-color: var(--gray);
 }
 
+.sign-img {
+  width: 170px;
+  height: 100%;
+}
+
 .white {
   color: white;
+}
+
+.darkgray
+{
+  color: var(--darkgray);
 }
 
 .opnion-box h5 span {
