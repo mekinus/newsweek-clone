@@ -12,6 +12,9 @@ body {
   font-weight: bold;
 }
 
+.big-font {
+  font-size: 1.7rem;
+}
 .medium-font {
   font-size: 1.1rem;
 }
@@ -178,8 +181,7 @@ body {
 }
 
 .news-div {
-  background-color: pink;
-  width: 500px;
+  width: 450px;
   height: 300px;
 }
 
@@ -202,6 +204,26 @@ body {
 
 .orange {
   color: var(--orange);
+}
+
+.footer-news-logo {
+  height: 120px;
+  width: 236px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.footer-icons {
+  margin-top: 60px;
+  margin-left: 350px;
+}
+
+.footer-icons i {
+  margin-right: 5px;
+}
+
+.footer-logo small {
+  margin-top: 60px;
 }
 
 .bg-orange {
