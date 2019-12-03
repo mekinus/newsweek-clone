@@ -17,6 +17,7 @@ body {
 .big-font {
   font-size: 1.7rem;
 }
+
 .medium-font {
   font-size: 1.1rem;
 }
@@ -37,7 +38,6 @@ body {
 .border-r-g {
   border-right: 1px solid var(--gray);
   margin-right: 3px;
-
 }
 
 .border-gray {
@@ -272,8 +272,7 @@ body {
   color: white;
 }
 
-.darkgray
-{
+.darkgray {
   color: var(--darkgray);
 }
 
