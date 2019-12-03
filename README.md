@@ -3,7 +3,7 @@
 ## About the project
 
 *This project is part of the HTML and CSS module of Microverse technical curriculum, the objective of this web-page is to
-clone some main specs of the News Week home page. *
+clone some main specs of the News Week home page.*
 
 ### Built With
 * HTML5
