@@ -4,30 +4,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Newsweek</title>
+  <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/custom.css">
   <link href="https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 
 <body>
-  <div class="container-fluid d-flex justify-content-around header">
-    <h6>Fri, Nov 22, 2019</h6>
-    <img src="images/newsweek-header-logo.svg" class="img-fluid main-logo" alt="">
-    <a href="">Sign In</a>
-    <button type="button" class="btn btn-primary btn-sm">Subscribe ></button>
+  <div class="jumbotron d-flex justify-content-around header bg-orange p-3">
+    <h6 class="white bold flex-fill">Tue, Dec 03, 2019</h6>
+    <div class="header-wrapper container d-flex">
+      <img src="images/newsweek-orange-white-logo.png" class="main-logo" alt="">
+      <div class="container-fluid">
+        <a href="" class="white bold flex-fill">Sign In</a>
+        <button type="button" class="btn btn-light orange btn-sm flex-fill">Subscribe ></button>
+      </div>
+    </div>
+
   </div>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a href="" class="nav-link">U.S</a>
-    <a href="" class="nav-link">World</a>
-    <a href="" class="nav-link">Business</a>
-    <a href="" class="nav-link">Tech & Science</a>
-    <a href="" class="nav-link">Culture</a>
-    <a href="" class="nav-link">Newsgeek</a>
-    <a href="" class="nav-link">Sports</a>
-    <a href="" class="nav-link">Health</a>
-    <a href="" class="nav-link">Opnion</a>
-    <a href="" class="nav-link">Vantage</a>
+  <nav class="navbar navbar-expand-lg navbar-light d-flex">
+    <a href="" class="nav-link bold black flex-fill">U.S</a>
+    <a href="" class="nav-link bold black flex-fill">World</a>
+    <a href="" class="nav-link bold black flex-fill">Business</a>
+    <a href="" class="nav-link bold black flex-fill">Tech & Science</a>
+    <a href="" class="nav-link bold black flex-fill">Culture</a>
+    <a href="" class="nav-link bold black flex-fill">Newsgeek</a>
+    <a href="" class="nav-link bold black flex-fill">Sports</a>
+    <a href="" class="nav-link bold black flex-fill">Health</a>
+    <a href="" class="nav-link bold black flex-fill">Opnion</a>
+    <a href="" class="nav-link bold black flex-fill">Vantage</a>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
     </form>
@@ -36,8 +42,8 @@
   <div class="container-fluid main-section">
     <div class="container featured-stories">
       <div class="row">
-        <div class="col-lg-4">
-          <h4 class="gray medium-font">FEATURED STORIES</h4>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <h4 class="darkgray medium-font">FEATURED STORIES</h4>
           <div class="container m-2 story no-padding">
             <img class="img-fluid" src="images/hong-kong.webp" alt="">
             <a class="custom-decoration black" href="">
@@ -110,8 +116,8 @@
           </div>
         </div>
 
-        <div class="col-lg-4">
-          <h4 class="gray medium-font">TOP STORY</h4>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <h4 class="darkgray medium-font">TOP STORY</h4>
           <div class="container top-box">
             <img src="images/top-story-img.webp" alt="top-img">
             <a class="custom-decoration black" href="">
@@ -120,23 +126,26 @@
             <h6 class="small-font darkgray">"This disgusting sexual predator event was documented in great detail," said James Tomsheck, the former assistant commissioner for internal affairs with the U.S. Customs and Border Protection agency.</h6>
           </div>
 
-          <div class="container mt-2 mr-5 multi-box bg-gray">
+          <div class="container mt-2 mr-5 multi-box bg-gray border-darkgray">
+            <h5 class="darkgray">Culture & Travel</h5>
             <div class="row">
               <div class="col-lg-6">
                 <div class="box">
-                  <img class="no-padding" src="images/top-col-img.webp" alt="">
-                  <p class="bold medium-font">The 20 Most-anticipated Books of 2020 <br>
+                  <img class="no-padding border-darkgray" src="images/top-col-img.webp" alt="small-img">
+                  <a class="bold black medium-font custom-decoration-02" href="">The 20 Most-anticipated Books of 2020 <br>
                     <small>With the arrival of the new year comes a flurry of new books we can't wait to devour.
-                      Books</small></p>
+                      </small></a>
+                      <button type="button" class="btn btn-light btn-sm" name="button">Books</button>
                 </div>
               </div>
 
               <div class="col-lg-6 mb-5">
                 <div class="box">
-                  <img src="images/top-col-img.webp" alt="">
-                  <p class="bold medium-font">8 Stunning Bookstores Worth Visiting Around the World<br>
+                  <img class="no-padding border-darkgray" src="images/top-col-img.webp" alt="small-img">
+                  <a class="bold black medium-font custom-decoration-02" href="">The 20 Most-anticipated Books of 2020 <br>
                     <small>With the arrival of the new year comes a flurry of new books we can't wait to devour.
-                      Books</small></p>
+                      </small></a>
+                      <button type="button" class="btn btn-light btn-sm" name="button">Books</button>
                 </div>
               </div>
 
@@ -146,16 +155,17 @@
             <div class="row">
               <div class="col-lg-6 mt-5">
                 <div class="box">
-                  <img src="images/top-col-img.webp" alt="">
-                  <p class="bold medium-font">Unusual Airports You Might Actually Enjoy Getting Stuck In <br>
-                    <small>Airports are often the last place to find joy and wonder—unless you're landing in a National Park, the middle of the Caribbean sea or even directly on sea ice.
-                      <span><a href="">Books</a></span></small></p>
+                  <img class="no-padding border-darkgray" src="images/top-col-img.webp" alt="">
+                  <a class="bold black medium-font custom-decoration-02" href="">The 20 Most-anticipated Books of 2020 <br>
+                    <small>With the arrival of the new year comes a flurry of new books we can't wait to devour.
+                      </small></a>
+                      <button type="button" class="btn btn-light btn-sm" name="button">Books</button>
                 </div>
               </div>
 
               <div class="col-lg-6 mt-5">
                 <div class="box">
-                  <img src="images/top-col-img.webp" alt="">
+                  <img class="no-padding border-darkgray" src="images/top-col-img.webp" alt="">
                   <p class="bold medium-font">Mike Birbiglia on the Comedy of Fatherhood and His Special 'The New One' <br>
                     <small>With the arrival of the new year comes a flurry of new books we can't wait to devour.
                       Books</small></p>
@@ -165,58 +175,78 @@
           </div>
 
           <div class="row mt-5">
-            <div class="col-lg-12 mt-5">
-              <div class="container more-stories sticky">
-                <h5 class="medium-font gray border-d-g">MORE STORIES</h5>
+            <div class="col-lg-12 col-md-6 col-sm-12 mt-5">
+              <div class="container more-stories">
+                <h5 class="medium-font darkgray border-d-g">MORE STORIES</h5>
                 <div class="container-fluid story-box no-padding">
                   <img class="story-img" src="images/trump-golf-club.webp" alt="story-image">
-                  <h5 class="text-left small-font bold">'Major Incident' at London Bridge Sees Number of People Injured in Stabbing<br><span><small>Area was the scene of a terrrorist attack in June 2017.</small></span></h5>
+                  <a href="" class="no-padding black custom-decoration">
+                    <h5 class="text-left small-font bold">'Major Incident' at London Bridge Sees Number of People Injured in Stabbing<br><span><small>Area was the scene of a terrrorist attack in June 2017.</small></span></h5>
+                  </a>
                 </div>
                 <br>
                 <div class="container-fluid story-box no-padding">
                   <img class="story-img" src="images/trump-golf-club.webp" alt="story-image">
-                  <h5 class="text-left small-font bold">'Major Incident' at London Bridge Sees Number of People Injured in Stabbing<br><span><small>Area was the scene of a terrrorist attack in June 2017.</small></span></h5>
+                  <a href="" class="no-padding black custom-decoration">
+                    <h5 class="text-left small-font bold">'Major Incident' at London Bridge Sees Number of People Injured in Stabbing<br><span><small>Area was the scene of a terrrorist attack in June 2017.</small></span></h5>
+                  </a>
                 </div>
                 <br>
 
                 <div class="container-fluid story-box no-padding">
                   <img class="story-img" src="images/trump-golf-club.webp" alt="story-image">
-                  <h5 class="text-left small-font bold">'Major Incident' at London Bridge Sees Number of People Injured in Stabbing<br><span><small>Area was the scene of a terrrorist attack in June 2017.</small></span></h5>
+                  <a href="" class="no-padding black custom-decoration">
+                    <h5 class="text-left small-font bold">'Major Incident' at London Bridge Sees Number of People Injured in Stabbing<br><span><small>Area was the scene of a terrrorist attack in June 2017.</small></span></h5>
+                  </a>
                 </div>
                 <br>
                 <div class="container-fluid story-box no-padding">
                   <img class="story-img" src="images/trump-golf-club.webp" alt="story-image">
-                  <h5 class="text-left small-font bold">'Major Incident' at London Bridge Sees Number of People Injured in Stabbing<br><span><small>Area was the scene of a terrrorist attack in June 2017.</small></span></h5>
+                  <a href="" class="no-padding black custom-decoration">
+                    <h5 class="text-left small-font bold">'Major Incident' at London Bridge Sees Number of People Injured in Stabbing<br><span><small>Area was the scene of a terrrorist attack in June 2017.</small></span></h5>
+                  </a>
                 </div>
                 <br>
                 <div class="container-fluid story-box no-padding">
                   <img class="story-img" src="images/trump-golf-club.webp" alt="story-image">
-                  <h5 class="text-left small-font bold">'Major Incident' at London Bridge Sees Number of People Injured in Stabbing<br><span><small>Area was the scene of a terrrorist attack in June 2017.</small></span></h5>
+                  <a href="" class="no-padding black custom-decoration">
+                    <h5 class="text-left small-font bold">'Major Incident' at London Bridge Sees Number of People Injured in Stabbing<br><span><small>Area was the scene of a terrrorist attack in June 2017.</small></span></h5>
+                  </a>
                 </div>
                 <br>
                 <div class="container-fluid story-box no-padding">
                   <img class="story-img" src="images/trump-golf-club.webp" alt="story-image">
-                  <h5 class="text-left small-font bold">'Major Incident' at London Bridge Sees Number of People Injured in Stabbing<br><span><small>Area was the scene of a terrrorist attack in June 2017.</small></span></h5>
+                  <a href="" class="no-padding black custom-decoration">
+                    <h5 class="text-left small-font bold">'Major Incident' at London Bridge Sees Number of People Injured in Stabbing<br><span><small>Area was the scene of a terrrorist attack in June 2017.</small></span></h5>
+                  </a>
                 </div>
                 <br>
                 <div class="container-fluid story-box no-padding sticky-top">
                   <img class="story-img" src="images/trump-golf-club.webp" alt="story-image">
-                  <h5 class="text-left small-font bold">'Major Incident' at London Bridge Sees Number of People Injured in Stabbing<br><span><small>Area was the scene of a terrrorist attack in June 2017.</small></span></h5>
+                  <a href="" class="no-padding black custom-decoration">
+                    <h5 class="text-left small-font bold">'Major Incident' at London Bridge Sees Number of People Injured in Stabbing<br><span><small>Area was the scene of a terrrorist attack in June 2017.</small></span></h5>
+                  </a>
                 </div>
                 <br>
                 <div class="container-fluid story-box no-padding sticky-top">
                   <img class="story-img" src="images/trump-golf-club.webp" alt="story-image">
-                  <h5 class="text-left small-font bold">'Major Incident' at London Bridge Sees Number of People Injured in Stabbing<br><span><small>Area was the scene of a terrrorist attack in June 2017.</small></span></h5>
+                  <a href="" class="no-padding black custom-decoration">
+                    <h5 class="text-left small-font bold">'Major Incident' at London Bridge Sees Number of People Injured in Stabbing<br><span><small>Area was the scene of a terrrorist attack in June 2017.</small></span></h5>
+                  </a>
                 </div>
                 <br>
                 <div class="container-fluid story-box no-padding sticky-top">
                   <img class="story-img" src="images/trump-golf-club.webp" alt="story-image">
-                  <h5 class="text-left small-font bold">'Major Incident' at London Bridge Sees Number of People Injured in Stabbing<br><span><small>Area was the scene of a terrrorist attack in June 2017.</small></span></h5>
+                  <a href="" class="no-padding black custom-decoration">
+                    <h5 class="text-left small-font bold">'Major Incident' at London Bridge Sees Number of People Injured in Stabbing<br><span><small>Area was the scene of a terrrorist attack in June 2017.</small></span></h5>
+                  </a>
                 </div>
                 <br>
                 <div class="container-fluid story-box no-padding sticky-bottom">
                   <img class="story-img" src="images/trump-golf-club.webp" alt="story-image">
-                  <h5 class="text-left small-font bold">'Major Incident' at London Bridge Sees Number of People Injured in Stabbing<br><span><small>Area was the scene of a terrrorist attack in June 2017.</small></span></h5>
+                  <a href="" class="no-padding black custom-decoration">
+                    <h5 class="text-left small-font bold">'Major Incident' at London Bridge Sees Number of People Injured in Stabbing<br><span><small>Area was the scene of a terrrorist attack in June 2017.</small></span></h5>
+                  </a>
                 </div>
                 <br>
               </div>
@@ -226,71 +256,98 @@
 
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-6 col-sm-12">
           <div class="container-fluid opnion-box border-d-g">
-            <h4 class="gray medium-font">OPNION</h4>
+            <h4 class="darkgray medium-font">OPNION</h4>
             <img class="opnion-avatar" src="images/opnion-avatar.webp" alt="avatar">
-            <h5 class="bold medium-font">How Much Do You Make? Here's Why We All Should Answer <br> <span class="small-font gray bold">BY KIM CHURCHES</span></h5>
+            <a href="" class="no-padding black custom-decoration-02">
+              <h5 class="bold medium-font">How Much Do You Make? Here's Why We All Should Answer <br> <span class="small-font gray bold">BY KIM CHURCHES</span></h5>
+            </a>
           </div>
           <div class="container-fluid opnion-box border-d-g">
             <img class="opnion-avatar" src="images/opnion-avatar.webp" alt="avatar">
-            <h5 class="bold medium-font">As a Former Police Chief,I'm Troubled Watching Republicans Protect Trump
-              <span class="small-font gray">BY VAL DEMINGS</span></h5>
+            <a href="" class="no-padding black custom-decoration-02">
+              <h5 class="bold medium-font">As a Former Police Chief,I'm Troubled Watching Republicans Protect Trump
+                <span class="small-font gray">BY VAL DEMINGS</span></h5>
+            </a>
           </div>
           <div class="container-fluid opnion-box border-d-g">
             <img class="opnion-avatar" src="images/opnion-avatar.webp" alt="avatar">
-            <h5 class="bold medium-font">Robert Reich The Trump Administration Has Some of Best People in America <br>
-              <span class="small-font gray">BY ROBERT REICH</span></h5>
+            <a href="" class="no-padding black custom-decoration-02">
+              <h5 class="bold medium-font">Robert Reich The Trump Administration Has Some of Best People in America <br>
+                <span class="small-font gray">BY ROBERT REICH</span></h5>
+            </a>
           </div>
           <div class="container-fluid opnion-box border-d-g">
             <img class="opnion-avatar" src="images/opnion-avatar.webp" alt="avatar">
-            <h5 class="bold medium-font">No, Trump's Presidency Is Not the End of the Republican Party <br> <span class="small-font gray">BY PETER ROFF</span></h5>
-          </div>
+            <a href="" class="no-padding black custom-decoration-02">
+              <h5 class="bold medium-font">No, Trump's Presidency Is Not the End of the Republican Party <br> <span class="small-font gray">BY PETER ROFF</span></h5>
+          </div></a>
           <div class="container-fluid opnion-box border-d-g">
             <img class="opnion-avatar" src="images/opnion-avatar.webp" alt="avatar">
-            <h5 class="bold medium-font">Medicare for All Will Take a Movement, Not a Politician<br>
-              <span class="small-font gray">BY ADY BARKAN AND BONNIE CASTILLO</span></h5>
+            <a href="" class="no-padding black custom-decoration-02">
+              <h5 class="bold medium-font">Medicare for All Will Take a Movement, Not a Politician<br>
+                <span class="small-font gray">BY ADY BARKAN AND BONNIE CASTILLO</span></h5>
+            </a>
           </div>
           <div class="container-fluid opnion-box">
             <img class="opnion-avatar" src="images/opnion-avatar.webp" alt="avatar">
-            <h5 class="bold medium-font">Trump's Bribery Is Blatant—and Blatantly Impeachable <br>
-              <span class="small-font gray">BY NEAL KATYAL AND SAM KOPPELMAN</span></h5>
+            <a href="" class="no-padding black custom-decoration-02">
+              <h5 class="bold medium-font">Trump's Bribery Is Blatant—and Blatantly Impeachable <br>
+                <span class="small-font gray">BY NEAL KATYAL AND SAM KOPPELMAN</span></h5>
+            </a>
           </div>
 
-
+          <br>
           <div class="container latest-box border-d-g">
             <h5 class="medium-font gray">LATEST NEWS</h5>
             <img class="story-img" src="images/latest-img.webp" alt="">
-            <h5 class="bold">ICE Hits Out At Twitter User Over Claim Agent Posed As Homeless Woman</h5>
-          </div>
-          <div class="container latest-box border-d-g">
-            <img class="story-img" src="images/latest-img.webp" alt="">
-            <h5 class="bold">Black Friday 2019 Pet Sales: Deals at Petco, Petsmart,Pet Supplies Plus</h5>
-          </div>
-          <div class="container latest-box border-d-g">
-            <img class="story-img" src="images/latest-img.webp" alt="">
-            <h5 class="bold">Romaine Lettuce Recall:CDC Issues Order Over E. Coli Fears</h5>
+            <a href="" class="no-padding black custom-decoration-02">
+              <h5 class="bold">ICE Hits Out At Twitter User Over Claim Agent</h5>
+            </a>
           </div>
           <br>
-          <div class="container latest-box border-d-g">
+          <div class="container-fluid latest-box border-d-g">
             <img class="story-img" src="images/latest-img.webp" alt="">
-            <h5 class="bold">What is National Day of Mourning? Anti-Thanksgiving History</h5>
+            <a href="" class="no-padding black custom-decoration-02">
+              <h5 class="bold">Black Friday 2019 Pet Sales: Deals at Petco, Petsmart.</h5>
+            </a>
           </div>
           <br>
-          <div class="container latest-box border-d-g">
+          <div class="container-fluid latest-box border-d-g">
             <img class="story-img" src="images/latest-img.webp" alt="">
-            <h5 class="bold">'The Irishman' Fact vs. Fiction: Inside Jimmy Hoffa's Open Murder Case</h5>
+            <a href="" class="no-padding black custom-decoration-02">
+              <h5 class="bold">Romaine Lettuce Recall:CDC Issues Order Over Fears</h5>
+            </a>
           </div>
           <br>
-          <div class="container latest-box border-d-g">
+          <div class="container-fluid latest-box border-d-g">
             <img class="story-img" src="images/latest-img.webp" alt="">
-            <h5 class="bold">Toys 'R' Us reopening with new stores in New Jersey, Texas</h5>
+            <a href="" class="no-padding black custom-decoration-02">
+              <h5 class="bold">What is National Day of Mourning? Anti-Thanksgiving</h5>
+            </a>
           </div>
           <br>
-          <div class="container latest-box border-d-g">
+          <div class="container-fluid latest-box border-d-g">
             <img class="story-img" src="images/latest-img.webp" alt="">
-            <h5 class="bold">
-              What is National Day of Mourning? Anti-Thanksgiving History</h5>
+            <a href="" class="no-padding black custom-decoration-02">
+              <h5 class="bold">'The Irishman' Fact vs. Fiction: Inside Jimmy Hoffa's</h5>
+            </a>
+          </div>
+          <br>
+          <div class="container-fluid latest-box border-d-g">
+            <img class="story-img" src="images/latest-img.webp" alt="">
+            <a href="" class="no-padding black custom-decoration-02">
+              <h5 class="bold">Toys 'R' Us reopening with new stores !</h5>
+            </a>
+          </div>
+          <br>
+          <div class="container-fluid latest-box border-d-g">
+            <img class="story-img" src="images/latest-img.webp" alt="">
+            <a href="" class="no-padding black custom-decoration-02">
+              <h5 class="bold">
+                What is National Day of Mourning? History</h5>
+            </a>
           </div>
 
           <div class="container-fluid m-2 opnion-big-box p-0">
@@ -509,7 +566,7 @@
   <div class="container-fluid bottom-section">
 
     <div class="row">
-      <div class="col">
+      <div class="col-md-6 col-lg-4">
         <div class="ml-5 container wrapper no-padding invisible">
           <h5 class="medium-font bold"><img class="small-logo no-padding" src="images/newsweek-logo.png" alt="">FEATURED SLIDESHOW</h5>
         </div>
@@ -522,7 +579,7 @@
         </div>
       </div>
 
-      <div class="col">
+      <div class="col-md-6 col-lg-4">
         <div class="ml-5 container wrapper no-padding">
           <h5 class="medium-font bold"><img class="small-logo no-padding" src="images/newsweek-logo.png" alt="">FEATURED SLIDESHOW</h5>
         </div>
@@ -535,7 +592,7 @@
         </div>
       </div>
 
-      <div class="col">
+      <div class="col-md-6 col-lg-4">
         <div class="ml-5 container wrapper no-padding invisible">
           <h5 class="medium-font bold"><img class="small-logo no-padding" src="images/newsweek-logo.png" alt="">FEATURED SLIDESHOW</h5>
         </div>
@@ -550,7 +607,7 @@
     </div>
 
     <div class="row">
-      <div class="col">
+      <div class="col-md-6 col-lg-4">
         <div class="container-fluid bottom-box no-padding">
           <h5 class="tag-n bold">#25</h5>
           <img class="img-fluid" src="images/cosplay.webp" alt="">
@@ -560,7 +617,7 @@
         </div>
       </div>
 
-      <div class="col">
+      <div class="col-md-6 col-lg-4">
         <div class="container-fluid bottom-box no-padding">
           <h5 class="tag-n bold">#19</h5>
           <img class="img-fluid" src="images/mountain.webp" alt="">
@@ -570,7 +627,7 @@
         </div>
       </div>
 
-      <div class="col">
+      <div class="col-md-6 col-lg-4">
         <div class="container-fluid bottom-box no-padding">
           <h5 class="tag-n bold">#12</h5>
           <img class="img-fluid" src="images/galapagos.webp" alt="">
@@ -585,7 +642,7 @@
       <div class="col-lg-12">
         <h5 class="pl-2 bold orange">U.S</h5>
       </div>
-      <div class="col">
+      <div class="col-md-6 col-lg-4">
         <div class="container-fluid bottom-box no-padding">
           <img class="img-fluid" src="images/galapagos.webp" alt="">
           <a class="custom-decoration bold black" href="">
@@ -594,7 +651,7 @@
         </div>
       </div>
 
-      <div class="col">
+      <div class="col-md-6 col-lg-4">
         <div class="container-fluid bottom-box">
           <img class="img-fluid" src="images/galapagos.webp" alt="">
           <a class="custom-decoration bold black" href="">
@@ -846,22 +903,23 @@
 
   </div>
 
-<div class="d-flex container-fluid justify-content-around">
-<h5 class="bold orange mr-5">SUBSCRIBE</h5>
-<h5 class="bold orange text-left mr-5">NEWSLETTER</h5>
-</div>
+  <div class="d-flex container-fluid justify-content-around">
+    <h5 class="bold orange mr-5">SUBSCRIBE</h5>
+    <h5 class="bold orange text-left mr-5">NEWSLETTER</h5>
+  </div>
 
   <div class="container-fluid news-wrapper">
     <div class="row">
-      <div class="container-fluid col-lg-7 news-div p-5 bg-gray">
+      <div class="container-fluid col-lg-7 col-md-6 col-sm-12 news-div mb-5 p-5 bg-gray">
         <img class="left-img mr-5" src="images/magazine-02.jpg" alt="">
-        <h5 class="bold black">In-depth Stories You Don't See Elsewhere About <br> Topics You Want to Read!<br><span><small>All Access + Weekly Delivery.<br>Choose A Membership That's Perfect for You! <br><button class="btn bg-orange white"type="button" name="button">SUBSCRIBE ></button>
-</small></span>
-          </h5>
+        <h5 class="bold black">In-depth Stories You Don't See Elsewhere About <br> Topics You Want to Read!<br><span><small>All Access + Weekly Delivery.<br>Choose A Membership That's Perfect for You!<br><button class="btn bg-orange white" type="button" name="button">SUBSCRIBE ></button>
+            </small></span>
+        </h5>
       </div>
-      <div class="container col-lg-4 no-padding ml-1 border-gray">
+      <div class="container-fluid col-lg-4 col-md-5 col-sm-12 no-padding ml-1 mb-5 border-gray">
         <img class="sign-img" src="images/starting5-homepage.png" alt="">
-        <h5 class="text-center bold black">The Starting 5 <br> <span><small>Take back your inbox.<br>Sign up for our <br> newsletter and start <br> making sense of the <br> world around you.</small><br><button class="btn bg-orange white" type="button" name="button">SIGN UP ></button></span> </h5>
+        <h5 class="text-center bold black">The Starting 5 <br> <span><small>Take back your inbox.<br>Sign up for our <br> newsletter and start <br> making sense of the <br> world around you.</small><br><button class="btn bg-orange white"
+              type="button" name="button">SIGN UP ></button></span> </h5>
       </div>
     </div>
   </div>

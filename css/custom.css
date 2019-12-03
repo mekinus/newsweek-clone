@@ -44,8 +44,16 @@ body {
   border: 1px solid var(--gray);
 }
 
+.border-darkgray {
+  border: 1px solid var(--darkgray);
+}
+
 .main-logo {
-  width: 25%;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: white;
+  width: 300px;
+  height: 45px;
 }
 
 .story {
@@ -78,6 +86,11 @@ body {
 .custom-decoration:hover {
   text-decoration-color: var(--orange);
   color: black;
+}
+
+.custom-decoration-02:hover {
+  text-decoration: none;
+  color: var(--orange);
 }
 
 .multi-box {
