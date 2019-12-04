@@ -5,6 +5,12 @@
   --black: #000;
 }
 
+@media only screen and (max-width: 1024px) {
+  .custom-decoration h5 {
+    font-size: 0.8rem;
+  }
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
@@ -52,8 +58,8 @@ body {
   margin-left: 25%;
   margin-right: 25%;
   color: white;
-  width: 300px;
-  height: 45px;
+  width: 315px;
+  height: 60px;
 }
 
 .story {
@@ -74,8 +80,8 @@ body {
 }
 
 .top-box {
-  height: 400px;
-  width: 350px;
+  height: 500px;
+  width: 420px;
   padding: 0 0 0 0;
 }
 
@@ -94,7 +100,7 @@ body {
 }
 
 .multi-box {
-  height: 1024px;
+  height: auto;
 }
 
 .no-padding {
