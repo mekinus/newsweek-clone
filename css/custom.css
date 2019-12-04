@@ -1,7 +1,7 @@
 :root {
-  --gray: #DDD;
-  --darkgray: #9A9A9A;
-  --orange: #FD2903;
+  --gray: #ddd;
+  --darkgray: #9a9a9a;
+  --orange: #fd2903;
   --black: #000;
 }
 
@@ -131,7 +131,7 @@ body {
 .opnion-small-box {
   width: 280px;
   height: 150px;
-  background-color: #F4F5F6;
+  background-color: #f4f5f6;
   padding: 20px 0 0 20px;
 }
 
@@ -174,7 +174,7 @@ body {
 }
 
 .tag {
-  color: #3581F4;
+  color: #3581f4;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
@@ -211,11 +211,6 @@ body {
 }
 
 .news-div .left-img {
-  float: left;
-}
-
-.sign-img {
-  height: 100%;
   float: left;
 }
 
@@ -266,6 +261,7 @@ body {
 .sign-img {
   width: 170px;
   height: 100%;
+  float: left;
 }
 
 .white {
