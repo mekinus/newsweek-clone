@@ -80,8 +80,6 @@ body {
   margin-right: 10px;
 }
 
-.top-box {}
-
 .custom-decoration:hover {
   text-decoration-color: var(--orange);
   color: black;
