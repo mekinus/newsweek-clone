@@ -47,7 +47,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Leonardo Couto - [@Leonard83911553](https://twitter.com/Leonardo83911553) - machinusdeveloper@gmail.com
 
-*Live preview* - (https://mekinus.github.io/newssweek-clone/)
+*Live preview* - (https://mekinus.github.io/newsweek-clone/)
 
 ## Reference site used
 
