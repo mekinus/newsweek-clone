@@ -62,6 +62,11 @@ body {
   height: 90%;
 }
 
+.hidden-logo {
+  width: 30%;
+  height: 30%;
+}
+
 .story {
   height: 360px;
   width: 400px;
@@ -146,7 +151,6 @@ body {
 
 .bottom-box {
   margin-top: 10px;
-  width: 400px;
   height: 300px;
 }
 
